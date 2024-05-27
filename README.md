@@ -1,4 +1,4 @@
-# Jen Grisowold Personal Website
+<!-- # Jen Grisowold Personal Website
 
 Development of a conceptual animation for the personal website of digital content creator Jen Griswold.
 Design & Motion by [Alex Tkachev](https://twitter.com/simply_aalex).
@@ -33,4 +33,4 @@ Feel free to review the code for a more detailed understanding of my approach, a
 
 ## Credit 
 
-Huge credits goes to [Alex Tkachev](https://twitter.com/simply_aalex)🙌 who created the original design and motion which I have coded.
+Huge credits goes to [Alex Tkachev](https://twitter.com/simply_aalex)🙌 who created the original design and motion which I have coded. -->
