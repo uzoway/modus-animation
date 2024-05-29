@@ -33,6 +33,8 @@
             <li class="navigation__list--item"><a href="#" id="js-slide-up">our team</a></li>
             <li class="navigation__list--item"><a href="#" id="js-slide-up">let's talk</a></li>
         </ul>
+
+        <button class="navigation__button">menu</button>
     </nav>
 
     <!-- Main content -->
@@ -49,9 +51,13 @@
             </h1>
 
             <div class="container__video">
-                <button class="video__button">play</button>
-                <video src="https://res.cloudinary.com/dp20bvzhn/video/upload/v1716839332/samples/music-production_k3fffh.webm" muted playsinline loop></video>
-                <p class="video_duration">00:27</p>
+                <div class="video__wrapper">
+                    <button class="video__button">play</button>
+                    <div class="video">
+                        <video src="https://res.cloudinary.com/dp20bvzhn/video/upload/v1716839332/samples/music-production_k3fffh.webm" muted playsinline loop></video>
+                    </div>
+                    <p class="video__duration">00:27</p>
+                </div>
             </div>
 
             <h2 class="container__heading2">
@@ -66,7 +72,7 @@
         </section>
     </main>
     
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/CustomEase.min.js"></script>
 
