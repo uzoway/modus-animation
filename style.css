@@ -112,7 +112,7 @@ body {
 }
 
 .navigation {
-    --border-bottom-width: 100%; 
+    --border-bottom-width: 0%; 
     position: fixed;
     z-index: 2;
     width: 100%;
@@ -148,7 +148,7 @@ body {
 }
 
 .navigation .navigation__list:nth-of-type(1) {
-    grid-column: -7 / -5;
+    grid-column: -7 / -4;
 }
 
 .navigation .navigation__list:nth-of-type(2) {
@@ -236,6 +236,8 @@ body {
     grid-column: 2 / 7;
     aspect-ratio: 1 / 0.6;
     position: relative;
+    transform: scaleX(0);
+    transform-origin: center;
 }
 
 .container__video .video__wrapper .video video {
@@ -340,4 +342,10 @@ body {
     .container__heading2 .heading__line span {
         font-size: clamp(1rem, 0.6292rem + 2vw, 2.5625rem);
     }
+}
+
+
+/* Animation control */
+#js-slide-up {
+    transform: translateY(105%);
 }
