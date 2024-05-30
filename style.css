@@ -72,7 +72,7 @@ ul {
         );
     background-position: left top;
     background-size: calc(100% + var(--gutter-width)) 100%;
-    z-index: -1;  /* Change to a positive value to see overlay. */
+    z-index: -1;  
     transition: opacity 0.3s ease;
 }
 
@@ -344,8 +344,7 @@ body {
     }
 }
 
-
-/* Animation control */
+/* Animated element start state */
 #js-slide-up {
     transform: translateY(105%);
 }
