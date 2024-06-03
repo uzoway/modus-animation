@@ -1,5 +1,9 @@
 # Animation for Modus Studio.
 
+
+https://github.com/uzoway/modus-animation/assets/73430874/b0454e52-be41-43a2-80f1-099391b428b4
+
+
 Development of a conceptual animation for the complex sound design, music production, and recording services studio - Modus.
 Design & Motion by [Alex Tkachev](https://twitter.com/simply_aalex).
 
