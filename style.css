@@ -167,7 +167,7 @@ body {
 .navigation__list--item,
 .navigation__time,
 .navigation__logo {
-    overflow: hidden;
+    overflow-y: clip;
     line-height: 1;
     display: inline-flex;
 }
